@@ -1,0 +1,47 @@
+.card-slider {
+    position: relative;
+    background-size: 100% 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    display: flex !important;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+  }
+  
+  .slide1 {
+    background-image: url('../../assets/capaSerra.jpg');
+  }
+  
+  .slide2 {
+    background-image: url('../../assets/capaMec.jpg');
+  }
+  
+  .slide3 {
+    background-image: url('../../assets/capaComp.jpg');
+  }
+  
+  .banner-title {
+    font-weight: 900;
+    font-size: 55px;
+    text-shadow: 2px 2px 3px #3a3a3a;
+    letter-spacing: 2px;
+    color: #EE3B24;
+    stop-opacity: 90%;
+    margin: 0;
+  }
+  
+  .banner-subtitle {
+    font-weight: 700;
+    color: azure;
+    text-align: center;
+    text-shadow: 2px 2px 3px #3a3a3a;
+  }
+  
+  @media (max-width: 769px) {
+    .banner {
+      width: 0%;
+    }
+  }
+  
+  

@@ -1,7 +1,8 @@
 Comandos git essenciais
 
 - Adicionar e commitar arquivos na máquina local
-	git commit -am "Mensagem do Commit" 
+	git add .
+	git commit -m "Mensagem do Commit" 
 
 - Commitar arquivos no repositório online
 	git push
