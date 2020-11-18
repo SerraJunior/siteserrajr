@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css"
 
-export default class SimpleSlider extends Component {
-  render() {
+function SimpleSlider() {
     const settings = {
       infinite: true,
       speed: 500,
@@ -14,7 +13,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1,
       autoplay: true
     }
-
+    
     return (
       <div className='banner'>
         <Slider {...settings}>
@@ -32,6 +31,7 @@ export default class SimpleSlider extends Component {
           
         </Slider>
       </div>
-    );
-  }
+    )
 }
+
+export default SimpleSlider

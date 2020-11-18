@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+function Header() {
     return (
         <div>
             <span>Header</span>
