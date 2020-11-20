@@ -1,0 +1,20 @@
+
+
+.grayContainer {
+    border-top: 1px solid rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(199, 199, 199);
+    background-color: #ececec;
+}
+
+.titleServices {
+    color: #EE3B24;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.coluna {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

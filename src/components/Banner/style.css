@@ -1,46 +1,69 @@
-.card-slider {
-    position: relative;
-    background-size: 100% 100%;
-    height: 750px;
-    background-repeat: no-repeat;
-    display: flex !important;
-    align-items: center;
-    justify-content: center; 
-    flex-direction: column;
+.titleBanner {
+  position: relative;
+  text-align: center;
+  color: #EE3B24;
+  font-weight: 700;
+  font-size: 55px;
+  align-self: center;
+  text-align: center;
+
+}
+.carousel-caption {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+.carousel-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.active carousel-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.subtitleBanner {
+  font-size: 20px;
+}
+
+@media (max-width: 602px) {
+  .titleBanner{
+    font-size: 40px;
   }
-  
-  .slide1 {
-    background-image: url('../../assets/capaSerra.jpg');
+  .subtitleBanner {
+    font-size: 20px;
   }
-  
-  .slide2 {
-    background-image: url('../../assets/capaMec.jpg');
+}
+
+@media (max-width: 500px) {
+  .titleBanner{
+    font-size: 35px;
   }
-  
-  .slide3 {
-    background-image: url('../../assets/capaComp.jpg');
+  .subtitleBanner {
+    font-size: 16px;
   }
-  
-  .banner-title {
-    font-weight: 900;
-    font-size: 55px;
-    text-shadow: 2px 2px 3px #3a3a3a;
-    letter-spacing: 2px;
-    color: #EE3B24;
-    margin: 0;
+}
+
+@media (max-width: 430px) {
+  .titleBanner{
+    font-size: 25px;
   }
-  
-  .banner-subtitle {
-    font-weight: 700;
-    color: azure;
-    text-align: center;
-    text-shadow: 2px 2px 3px #3a3a3a;
+  .subtitleBanner {
+    font-size: 14px;
   }
-  
-  @media (max-width: 769px) {
-    .banner {
-      width: 0%;
-    }
+}
+
+@media (max-width: 350px) {
+  .titleBanner{
+    font-size: 15px;
   }
-  
-  
+  .subtitleBanner {
+    font-size: 10px;
+  }
+}

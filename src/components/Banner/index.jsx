@@ -1,37 +1,54 @@
 import React from "react";
-import Slider from "react-slick";
+import { Carousel } from 'react-bootstrap'
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import capaSerra from '../../assets/capaSerra.jpg'
+import capaComp from '../../assets/capaComp.jpg'
+import capaMec from '../../assets/capaMec.jpg'
 import "./style.css"
 
-function SimpleSlider() {
-    const settings = {
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true
-    }
-    
-    return (
-      <div className='banner'>
-        <Slider {...settings}>
-          <div className='card-slider slide1'>
-            <h1 className="banner-title">Conheça a Serra Jr. Engenharia</h1>
-          </div>
-          <div className='card-slider slide2'>
-            <h1 className="banner-title">Serviços em Engenharia Mecânica</h1>
-            <h2 className="banner-subtitle">Modelagem 3D de peças e máquinas, Análises Estruturais e Projeto de Máquinas</h2>
-          </div>
-          <div className='card-slider slide3'>
-            <h1 className="banner-title">Serviços em Engenharia de Computação</h1>
-            <h2 className="banner-subtitle">Desenvolvimento de Sites e Sistemas WEB, Sistemas e Automação de Processos</h2>
-          </div>
-          
-        </Slider>
-      </div>
-    )
-}
+export default function Slider() {
 
-export default SimpleSlider
+  return (
+
+    <Carousel>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={capaSerra}
+          alt='Capa Serra'
+        />
+        <Carousel.Caption>
+          <h3 className='titleBanner'>Conheça a Serra</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={capaComp}
+          alt="capaComp"
+        />
+
+        <Carousel.Caption>
+          <h3 className='titleBanner'>Serviços em Engenharia de Computação</h3>
+          <p className='subtitleBanner'> Atuação na área de Engenharia Mecânica e Engenharia de Computação </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={capaMec}
+          alt="capaMec"
+        />
+
+        <Carousel.Caption>
+          <h3 className='titleBanner'>Serviços em Engenharia Mecânica</h3>
+          <p className='subtitleBanner'>Modelagem 3D de peças e máquinas, Análises Estruturais e Projeto de Máquinas</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+    </Carousel>
+  )
+}
