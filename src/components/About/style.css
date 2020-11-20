@@ -1,0 +1,100 @@
+.histImg {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.mejImg {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.iprjImg {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.tabContainer {
+    display: flex;
+    margin: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-size-adjust: 30px;
+    text-align: justify;
+    
+}
+.tab1 {
+    color: #EE3B24;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.tab1:hover{
+    color: #495057;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+.tituloSecoes {
+    position: relative;
+    text-align: center;
+    color: #EE3B24;
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
+
+.linha {
+    display: block;
+    margin: auto;
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #EE3B24;
+    margin-bottom: 50px;
+}
+
+.link_externo {
+    font-size: 15px;
+    font-weight: 600;
+    color: #EE3B24;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #EE3B24;
+}
+
+@media (max-width: 349px) {
+    .tab1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 294px) {
+    .tab1{
+        font-size: 12px;
+    }
+}
