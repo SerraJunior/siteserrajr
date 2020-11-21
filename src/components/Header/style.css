@@ -1,0 +1,51 @@
+.LogoSerra{
+    
+    height: 45px;
+    margin-left: 20%;
+}
+
+.header{
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0px 3px 6px rgba(128,128,128, 0.277);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: white;
+}
+
+.SecaoHeader{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.LinksList{
+    display: flex !important;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.navItem{
+    margin-right: 35px;
+    
+}
+
+.LinkHeader{
+    color: #212529;
+    
+}
+
+.LinkHeader:hover{
+    color:  #EE3B24 !important;
+    cursor: pointer;
+}
+
+.navContainer{
+    margin-right: 5%;
+    padding-top: 0.5%;
+    display: flex;
+}
