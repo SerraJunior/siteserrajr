@@ -3,8 +3,6 @@ import logo from '../../assets/LogoSerraJr.png'
 
 import './style.css'
 
-
-
 function Header() {
     return (
         <header className='header'>

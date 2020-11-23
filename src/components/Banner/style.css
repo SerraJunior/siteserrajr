@@ -1,32 +1,13 @@
+#secaoBanner {
+  margin-top: 80px;
+}
+
 .titleBanner {
-  position: relative;
-  text-align: center;
   color: #EE3B24;
   font-weight: 700;
   font-size: 55px;
-  align-self: center;
-  text-align: center;
-
-}
-.carousel-caption {
-  display: flex!important;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
 }
 
-.carousel-item {
-  margin: 0px;
-  padding: 0px;
-}
-
-.active carousel-item {
-  margin: 0px;
-  padding: 0px;
-}
 
 .subtitleBanner {
   font-size: 20px;

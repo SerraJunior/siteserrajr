@@ -38,7 +38,7 @@
     
 }
 .tab1 {
-    color: #EE3B24;
+    color: #495057;
     font-weight: bold;
     font-size: 25px;
     
@@ -53,7 +53,6 @@
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
-
 
 }
 
@@ -79,12 +78,22 @@
 .link_externo {
     font-size: 15px;
     font-weight: 600;
-    color: #EE3B24;
+    color: #000000;
     text-decoration: underline;
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #EE3B24  ;
+}
+
+.nav-link.active {
+    color: #EE3B24 !important;
+    border-color: #EE3B24 #EE3B24 #EE3B24 !important;
+    border-bottom: #fff !important;
+}
+
 a:hover {
-    color: #EE3B24;
+    color: #EE3B24 !important;
 }
 
 @media (max-width: 349px) {
