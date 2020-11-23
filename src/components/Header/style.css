@@ -1,5 +1,4 @@
 .LogoSerra{
-    
     height: 45px;
     margin-left: 20%;
 }
@@ -16,27 +15,30 @@
     background-color: white;
 }
 
-.SecaoHeader{
+.secaoHeader{
     display: flex !important;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center; 
+    height: 37px;
 }
 
 .LinksList{
     display: flex !important;
     flex-direction: row;
     list-style: none;
-    
+    padding: 0px;
+    margin: 0px;
+
 }
 
 .navItem{
     margin-right: 35px;
-    
 }
 
 .LinkHeader{
     color: #212529;
-    
+    font-weight: 700;
 }
 
 .LinkHeader:hover{
@@ -46,6 +48,6 @@
 
 .navContainer{
     margin-right: 5%;
-    padding-top: 0.5%;
     display: flex;
+
 }

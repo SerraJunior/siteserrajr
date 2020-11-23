@@ -43,16 +43,9 @@
     font-size: 25px;
     
 }
-.tab1:hover{
-    color: #495057;
-}
 
 .container {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+   margin-bottom: 2%;
 
 }
 

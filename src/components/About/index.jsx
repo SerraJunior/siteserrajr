@@ -17,7 +17,7 @@ function ControlledTabs() {
       <div className='linha'></div>
 
 
-      <Tab.Container id="" defaultActiveKey="Nossa História">
+      <Tab.Container defaultActiveKey="Nossa História">
 
         <Nav variant="tabs" className="">
           <Nav.Item>
@@ -49,7 +49,7 @@ function ControlledTabs() {
                   Nova Friburgo. Em 2013, retomou com força total seus projetos. Hoje, está melhor
                   do que nunca oferecendo soluções em engenharia mecânica e computação para todo o
                   mercado.
-                                </span>
+                </span>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ function ControlledTabs() {
                   Atua em ensino, pesquisa e extensão, incluindo, além das graduações em Engenharia Mecânica e
                   Engenharia de Computação, Mestrado e Doutorado em Modelagem Computacional (Capes nível 6),
                   desde 1995, e Mestrado em Ciência e Tecnologia de Materiais desde 2007.
-                                </span>
+                </span>
                 <br /><br />
                 <a className='link_externo' target='_blank' href="http://www.iprj.uerj.br/"> SITE DO INSTITUTO </a>
               </div>

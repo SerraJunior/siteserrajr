@@ -1,50 +1,48 @@
 #secaoBanner {
-  margin-top: 80px;
+  margin-top: 30px;
+}
+
+.slide {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-position: center;
+}
+
+.first {
+  background-image: url('../../assets/capaSerra.jpg');
+}
+
+.second {
+  background-image: url('../../assets/capaComp.jpg');
+}
+.third {
+  background-image: url('../../assets/capaMec.jpg');
 }
 
 .titleBanner {
   color: #EE3B24;
   font-weight: 700;
   font-size: 55px;
+  text-shadow: 2px 2px 3px #3a3a3a;
 }
 
 
 .subtitleBanner {
-  font-size: 20px;
+  color: aliceblue;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px #3a3a3a;
+  font-weight: 600;
 }
 
-@media (max-width: 602px) {
-  .titleBanner{
-    font-size: 40px;
-  }
-  .subtitleBanner {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .titleBanner{
-    font-size: 35px;
-  }
-  .subtitleBanner {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 430px) {
-  .titleBanner{
-    font-size: 25px;
-  }
-  .subtitleBanner {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 350px) {
-  .titleBanner{
-    font-size: 15px;
-  }
-  .subtitleBanner {
-    font-size: 10px;
+@media (max-width: 780px) {
+  .slide {
+    width: 0px;
+    height: 0px;
   }
 }
