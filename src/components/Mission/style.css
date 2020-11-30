@@ -1,0 +1,66 @@
+.whiteContainer {
+    background-color: #ffffff;
+    padding-bottom: 2%;
+}
+
+.titleProjetos {
+    color: #EE3B24;
+    margin-top: 20px;
+    font-weight: 480;
+    font-size: 35px;
+}
+
+.coluna {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 280px;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#Missao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+    color: #6a6a6a;
+    font-size: 20px;
+}
+
+#Visao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+    color:#6a6a6a !important;
+    font-size: 20px;
+}
+
+#valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+    color: #6a6a6a;
+    font-size: 20px;
+}
+
+
+
+.icon {
+    height: 50px;
+    margin: 20px;
+    color: #212529;
+}
+
