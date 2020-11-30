@@ -19,4 +19,7 @@ Comandos git não essenciais
 - Verificar arquivos em mudança
 	git status
 
+- Voltar a um commit especifico
+	git reset --hard HEAD~1
+
 

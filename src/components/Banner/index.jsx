@@ -1,34 +1,39 @@
 import React from "react";
-import { Carousel } from 'react-bootstrap'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './style.css'
 
-import "./style.css"
+function Banner() {
 
-export default function Slider() {
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: true
+  }
 
   return (
-    <section id='secaoBanner'>
-
-      <Carousel>
-        <Carousel.Item>
-          <div className="first slide">
-            <h3 className='titleBanner'>Conheça a Serra</h3>
-          </div> 
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <div className="second slide">
-            <h3 className='titleBanner'>Serviços em Engenharia de Computação</h3>
-            <p className='subtitleBanner'> Atuação na área de Engenharia Mecânica e Engenharia de Computação </p>
-          </div>              
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <div className="third slide">
-          <h3 className='titleBanner'>Serviços em Engenharia Mecânica</h3>
-            <p className='subtitleBanner'>Modelagem 3D de peças e máquinas, Análises Estruturais e Projeto de Máquinas</p>
-          </div>     
-        </Carousel.Item>
-      </Carousel>
-    </section>
+    <div id='secaoBanner'>
+      <Slider {...settings}>
+        <div className='slide first'>
+          <h1 className='titleBanner'>Conheça a Serra Jr. <br></br>Engenharia</h1>
+        </div>
+        <div className='slide second'>
+          <h1 className='titleBanner'>Serviços em Engenharia de <br></br>Computação</h1>
+          <h2 className='subtitleBanner'>Desenvolvimento de Sites e Sistemas WEB, Sistemas e <br></br> Automação de Processos</h2>
+        </div>
+        <div className='slide third'>
+          <h1 className='titleBanner'>Serviços em Engenharia <br></br> Mecânica</h1>
+          <h2 className='subtitleBanner'>Modelagem 3D de peças e máquinas, Análises Estruturais e <br></br> Projeto de Máquinas</h2>
+        </div>
+        
+      </Slider>
+    </div>
   )
 }
+
+
+export default Banner

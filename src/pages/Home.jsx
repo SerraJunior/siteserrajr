@@ -11,7 +11,7 @@ function Home() {
             <Header/>
             <Banner/>
             <About/>
-            <Services />
+            <Services/>
         </div>
     )
 }
