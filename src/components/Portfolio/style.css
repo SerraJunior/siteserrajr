@@ -1,0 +1,63 @@
+#secaoPortifolio{
+    margin-bottom: 50%;
+}
+
+.textPortifolio {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    cursor: text;
+    align-items: center;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.primeiraAba {
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: default;
+}
+
+.carousel-indicators li {
+    width: 40px !important;
+    height: 15px !important;
+    background-color: #EE3B24 !important;
+}
+
+.carousel-indicators {
+    left: auto !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.portifolioImg {
+    height: 325px;
+    width: 435px;
+    border-radius: 10px;
+}
+
+.slide {
+    display: flex !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+}
+
+@media (max-width: 991px) {
+    .carousel-indicators {
+        position: relative !important;
+    }
+    .textPortifolio {
+        margin-top: 2%;
+    } 
+}

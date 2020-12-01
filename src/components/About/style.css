@@ -89,6 +89,12 @@ a:hover {
     color: #EE3B24 !important;
 }
 
+@media (max-width: 404px) {
+    .tab1{
+        font-size: 17px;
+    }
+}
+
 @media (max-width: 349px) {
     .tab1{
         font-size: 15px;

@@ -18,14 +18,14 @@ function Banner() {
   return (
     <div id='secaoBanner'>
       <Slider {...settings}>
-        <div className='slide first'>
+        <div className='slideBanner first'>
           <h1 className='titleBanner'>Conheça a Serra Jr. <br></br>Engenharia</h1>
         </div>
-        <div className='slide second'>
+        <div className='slideBanner second'>
           <h1 className='titleBanner'>Serviços em Engenharia de <br></br>Computação</h1>
           <h2 className='subtitleBanner'>Desenvolvimento de Sites e Sistemas WEB, Sistemas e <br></br> Automação de Processos</h2>
         </div>
-        <div className='slide third'>
+        <div className='slideBanner third'>
           <h1 className='titleBanner'>Serviços em Engenharia <br></br> Mecânica</h1>
           <h2 className='subtitleBanner'>Modelagem 3D de peças e máquinas, Análises Estruturais e <br></br> Projeto de Máquinas</h2>
         </div>
