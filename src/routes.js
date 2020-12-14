@@ -1,6 +1,7 @@
 import React from "react"
 import Home from './pages/Home'
 import Blog from './pages/Blog'
+import ProjetosMec from './pages/ProjetosMec'
     
 
 
@@ -20,6 +21,11 @@ function App() {
                         <Blog>
 
                         </Blog>
+                    </Route>
+                    <Route exact path='/ProjetosMec'>
+                        <ProjetosMec>
+
+                        </ProjetosMec>
                     </Route>
                 </Switch>
             </Router>
