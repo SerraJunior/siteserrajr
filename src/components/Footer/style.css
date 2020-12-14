@@ -1,0 +1,188 @@
+.formaRodape {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    padding: 2%;
+}
+
+.footerTitulos {
+    color: #C5C5C2 !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.rowFooter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerLinha {
+    display: block;
+    content: "";
+    width: 95%;
+    height: 3px;
+    margin-left: 0px;
+    background: #EE3B24;
+    border-radius: 5px;
+}
+
+.footerElemento {
+    display: flex !important;
+    flex-direction: column;
+    min-width: 270px;
+    flex: 1;
+}
+
+.rodapeLogo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: auto;
+    max-width: 300px !important;
+    align-self: center;
+}
+
+.formaCop {
+    background-color: #222 !important;
+    padding: 1%;
+}
+
+.copContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+}
+
+.social_link {
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(58, 58, 58);
+    color: #9E9E9E;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 12px;
+    height: 40px;
+}
+
+.listaSocial {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.socialMargin {
+   margin-left: 1.5%;
+   list-style: none;
+}
+
+
+.social_icone {
+    width: 30px;
+}
+
+.rodape_listas {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.rodape_elementos {
+    color: #9E9E9E;
+    margin-top: 5px;
+    cursor: default;
+}
+
+.rodape_link {
+    color: #9E9E9E;
+    font-weight: 600;
+}
+
+.rodape_link:hover {
+    color: #EE3B24;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    color: black;
+    background-color: #3b5998;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    color: black;
+    background-color: #831d1c;
+    cursor: pointer;
+}
+.youtube:hover {
+    color: black;
+    background-color: #bb0000;
+    cursor: pointer;
+}
+
+.contato_texto {
+    color: #9E9E9E;
+    text-decoration: none;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 3px 10px;
+    color: #9E9E9E;
+    background-color: #2C2C2C;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.tags:hover {
+    background-color: #EE3B24;
+    color: #000;
+}
+
+.rodape_tags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copTitulo {
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 689px) {
+    .copContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .listaSocial {
+        margin-top: 1%;
+    }
+  }
+  
+  @media (max-width: 338px) {
+    .listaSocial {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+  }

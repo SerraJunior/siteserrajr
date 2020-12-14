@@ -17,10 +17,14 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 280px;
+    flex: 1;
+    min-width: 280px;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .rowContainer {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

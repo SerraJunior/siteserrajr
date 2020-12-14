@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog = () => {
+function Blog() {
     return (
         <div>
             Blog
