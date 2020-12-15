@@ -25,11 +25,7 @@ function Header() {
                     <li className="navItem"><a className="LinkHeader"> CONTATOS </a></li>
                     
                 </ul>
-                   
-
-
                 </div>
-
             </section>
         </header>
     );

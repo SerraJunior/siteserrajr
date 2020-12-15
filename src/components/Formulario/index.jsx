@@ -6,8 +6,7 @@ function Formulario() {
     return (
         
         <div className = 'container'>
-        <h1 className='tituloSecoes'> Contatos </h1>
-        <div className='linha'></div>
+        
           <section className = 'coluna'>
             <form>
               <label className = 'labelFormulario'>
