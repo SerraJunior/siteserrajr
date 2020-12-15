@@ -67,7 +67,7 @@ export default function Slider() {
           
         </Carousel>
       </section>
-      
+
     </div>
 
   )

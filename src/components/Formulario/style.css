@@ -1,0 +1,58 @@
+.labelFormulario {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #00172f;
+    font-weight: 700;
+
+}
+
+.enviar {
+
+    position: relative;
+    align-items: center !important;
+    -webkit-box-sizing: border-box;
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    background-color: #ee3b24;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.15s linear 0s;
+    transition: background-color 0.15s linear 0s;
+}
+
+.contatoInput {
+
+    padding: 7px;
+    border: 0.7px solid rgba(238, 59, 36, 0.432);
+    width: 100%;
+    border-radius: 3px;
+    width: 400px;
+
+}
+
+.contatoInputMensagem {
+
+    padding: 7px;
+    border: 0.7px solid rgba(238, 59, 36, 0.432);
+    width: 100%;
+    border-radius: 3px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.coluna {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        flex: 1;
+        min-width: 280px;
+        padding-right: 1%;
+        padding-left: 1%;
+    
+}
