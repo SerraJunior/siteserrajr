@@ -17,12 +17,12 @@ function Header() {
                 <ul className="LinksList">
                     
 
-                    <li className="navItem"><a className="LinkHeader" > INÍCIO </a></li>
-                    <li className="navItem"><a className="LinkHeader" > SERRA JR. </a></li>
-                    <li className="navItem"><a className="LinkHeader" > SERVIÇOS </a></li>
-                    <li className="navItem"><a className="LinkHeader" > PORTIFÓLIO </a></li>
-                    <li className="navItem"><a className="LinkHeader" > BLOG </a></li>
-                    <li className="navItem"><a className="LinkHeader"> CONTATOS </a></li>
+                    <li className="navItem"><a className="LinkHeader" href="#secaoCapa" > INÍCIO </a></li>
+                    <li className="navItem"><a className="LinkHeader" href="#secaoSobre" > SERRA JR. </a></li>
+                    <li className="navItem"><a className="LinkHeader" href="#secaoServicos"> SERVIÇOS </a></li>
+                    <li className="navItem"><a className="LinkHeader" href="#secaoPortifolio"> PORTIFÓLIO </a></li>
+                    <li className="navItem"><a className="LinkHeader" href="/Blog"> BLOG </a></li>
+                    <li className="navItem"><a className="LinkHeader" href="#secaoContato"> CONTATOS </a></li>
                     
                 </ul>
                 </div>
