@@ -20,7 +20,7 @@ function Footer() {
                 <li className="rodape_elementos"> &gt; <a className="rodape_link" href="#secaoSobre">Quem Somos</a></li>
                 <li className="rodape_elementos"> &gt; <a className="rodape_link" href="#secaoServicos">Serviços</a></li>
                 <li className="rodape_elementos"> &gt; <a className="rodape_link" href="#secaoPortifolio">Portfólio</a></li>
-                <li className="rodape_elementos"> &gt; <a className="rodape_link" href="#secaoBlog">Blog</a></li>
+                <li className="rodape_elementos"> &gt; <a className="rodape_link" href="/Blog">Blog</a></li>
                 <li className="rodape_elementos"> &gt; <a className="rodape_link" href="#secaoContato">Contato</a></li>
               </ul>
             </div>

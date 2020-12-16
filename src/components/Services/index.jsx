@@ -6,9 +6,9 @@ import devServicesImg from '../../assets/devServicos.png'
 
 function Services() {
   return (
-    <div className='grayContainer'>
-      <section id="secaoServicos">
-        <div style={{width: '100%'}} className='coluna'>
+    <section id='secaoServicos'>
+      <div className='grayContainer'>
+        <div style={{ width: '100%' }} className='coluna'>
           <h1 className='titleServices'> Serviços </h1>
           <h6 className="subtitleServices"> Atuação na área de Engenharia Mecânica e Engenharia de Computação </h6>
           <div className='linha'></div>
@@ -21,7 +21,7 @@ function Services() {
               <center>
                 <p>
                   Desenho Técnico e modelagem 3D<br></br> Prototipagem<br></br> Análise estrutural<br></br> Projetos de máquinas e equipamentos
-                </p>
+              </p>
               </center>
             </a>
             <a className="botaoEstilizado">Saiba Mais</a>
@@ -34,7 +34,7 @@ function Services() {
               <center>
                 <p>
                   Sistemas de Controle de Variáveis<br></br>Automação e Controle de Processos
-                </p>
+              </p>
               </center>
             </a>
             <a className="botaoEstilizado">Saiba Mais</a>
@@ -46,21 +46,20 @@ function Services() {
               <h5 className='titleProjetos'>Desenvolvimento Web</h5>
               <center>
                 <p>
-                  Web Sites<br></br> Sistemas Web<br></br> Aplicativos<br></br> 
+                  Web Sites<br></br> Sistemas Web<br></br> Aplicativos<br></br>
                 </p>
               </center>
             </a>
             <a className="botaoEstilizado">Saiba Mais</a>
           </div>
         </div>
+      </div>
+    </section>
 
-      </section>
-      
-    </div>
-    
 
-     
-  
+
+
+
   )
 }
 

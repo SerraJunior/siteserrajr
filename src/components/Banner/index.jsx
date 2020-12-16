@@ -16,7 +16,7 @@ function Banner() {
   }
 
   return (
-    <div id='secaoBanner'>
+    <section id='secaoCapa'>
       <Slider {...settings}>
         <div className='slideBanner first'>
           <h1 className='titleBanner'>Conheça a Serra Jr. <br></br>Engenharia</h1>
@@ -31,7 +31,7 @@ function Banner() {
         </div>
         
       </Slider>
-    </div>
+    </section>
   )
 }
 

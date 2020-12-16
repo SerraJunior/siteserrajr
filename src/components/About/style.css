@@ -1,3 +1,4 @@
+
 .histImg {
     width: 70%;
     margin-bottom: 20px;
@@ -83,6 +84,10 @@
     color: #EE3B24 !important;
     border-color: #EE3B24 #EE3B24 #EE3B24 !important;
     border-bottom: #fff !important;
+}
+
+.nav-link:hover {
+    color: #EE3B24
 }
 
 

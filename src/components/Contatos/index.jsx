@@ -6,7 +6,7 @@ import Mapa from '../Mapa'
 function Contatos() {
 
     return (
-        <section id='SecaoContatos'>
+        <section id='secaoContato'>
             <h1 className='tituloSecoes'> Contatos </h1>
             <div className='linha'></div>
             <div className='container'>
