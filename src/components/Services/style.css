@@ -1,8 +1,10 @@
 .grayContainer {
+    display: flex;
     border-top: 1px solid rgb(199, 199, 199);
     border-bottom: 1px solid rgb(199, 199, 199);
     background-color: #ececec;
     padding-bottom: 2%;
+    flex-direction: column;
 }
 
 .titleServices {
@@ -28,7 +30,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 #projetosMecanicos {

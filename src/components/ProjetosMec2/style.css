@@ -1,0 +1,53 @@
+.prototipagem {
+    width: 100%;
+}
+
+.projetosMeContaiter {
+    display: flex !important;
+    flex-direction: row;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imgMec {
+    width: 70%;
+    min-width: 300px;
+}
+
+.titleMec {
+    color: #012e5e;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.textMec {
+    color: rgb(26, 26, 26);
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.textMeContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.imgMeContainer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+@media(max-width: 360px) {
+    .titleMec {
+        font-size: 2.6rem;
+    }
+    .imgMec {
+        width: 70%;
+        min-width: 280px;
+    }
+}
