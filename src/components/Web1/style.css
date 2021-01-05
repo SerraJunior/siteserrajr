@@ -1,0 +1,38 @@
+.tituloPages{
+    position: relative;
+    text-align: center;
+    color: #EE3B24;
+    margin-top: 120px;
+    font-weight: 700;
+}
+
+.linhaPages{
+    display: block;
+    margin: auto;
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #EE3B24;
+}
+
+.separador{
+    width: 100%;
+    border-top: 4px solid #e7e7e7;
+}
+
+.ContainerAutomacao1{
+    display: flex;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding-bottom: 2%;
+    flex-direction: column;
+}
+
+@media(max-width: 360px) {
+    .titleMec {
+        font-size: 2.6rem;
+    }
+    .imgMec {
+        width: 70%;
+        min-width: 280px;
+    }
+}

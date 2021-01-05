@@ -2,6 +2,8 @@ import React from "react"
 import Home from './pages/Home'
 import Blog from './pages/Blog'
 import ProjetosMec from './pages/ProjetosMec'
+import Automacao from './pages/Automacao'
+import Web from './pages/Web'
     
 
 
@@ -26,6 +28,16 @@ function App() {
                         <ProjetosMec>
 
                         </ProjetosMec>
+                    </Route>
+                    <Route exact path='/Automacao'>
+                        <Automacao>
+
+                        </Automacao>
+                    </Route>
+                    <Route exact path='/Web'>
+                        <Web>
+
+                        </Web>
                     </Route>
                 </Switch>
             </Router>

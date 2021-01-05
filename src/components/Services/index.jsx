@@ -37,7 +37,7 @@ function Services() {
               </p>
               </center>
             </a>
-            <a className="botaoEstilizado">Saiba Mais</a>
+            <a href="/Automacao" className="botaoEstilizado">Saiba Mais</a>
           </div>
 
           <div className='coluna'>
@@ -50,7 +50,7 @@ function Services() {
                 </p>
               </center>
             </a>
-            <a className="botaoEstilizado">Saiba Mais</a>
+            <a href="/Web" className="botaoEstilizado">Saiba Mais</a>
           </div>
         </div>
       </div>
