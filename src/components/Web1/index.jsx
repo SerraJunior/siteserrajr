@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/WebDesign.png'
 import './style.css'
 
-function Blog() {
+function Web1() {
   return (
     <section>
     <h1 className='tituloPages'> WEB </h1>
@@ -33,4 +33,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Web1
