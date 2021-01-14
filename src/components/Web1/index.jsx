@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/WebDesign.png'
 import './style.css'
 
-function Web1() {
+function Web1(props) {
   return (
     <section>
     <h1 className='tituloPages'> WEB </h1>
@@ -23,7 +23,7 @@ function Web1() {
             <img className='imgMec' src={logo} alt="logoPrototipo" />
           </div>
         </div>
-        <button className='botaoEstilizado'>
+        <button className='botaoEstilizado' onClick={() => props.abreModal(1)}>
           Saiba Mais
         </button>
       </div>

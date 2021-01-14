@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/arduino.png'
 import './style.css'
 
-function Blog() {
+function Auto1(props) {
   return (
     <section>
     <h1 className='tituloPages'> AUTOMAÇÃO </h1>
@@ -23,7 +23,7 @@ function Blog() {
             <img className='imgMec' src={logo} alt="logoPrototipo" />
           </div>
         </div>
-        <button className='botaoEstilizado'>
+        <button className='botaoEstilizado'  onClick={() => props.abreModal(1)}>
           Saiba Mais
         </button>
       </div>
@@ -33,4 +33,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Auto1

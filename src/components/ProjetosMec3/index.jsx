@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/goodidea.png'
 import './style.css'
 
-function Blog() {
+function Mec3(props) {
   return (
     <div className='prototipagem'>
       <div style={{alignItems: 'center'}} className='ContainerProjMec3'>
@@ -19,7 +19,7 @@ function Blog() {
             <img className='imgMec' src={logo} alt="logoPrototipo" />
           </div>
         </div>
-        <button className='botaoEstilizado'>
+        <button className='botaoEstilizado' onClick={() => props.abreModal(3)}>
           Saiba Mais
         </button>
       </div>
@@ -28,4 +28,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Mec3

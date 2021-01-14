@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from '../../assets/WebDesign.png'
+import logo from '../../assets/WebSistema.png'
 import './style.css'
 
-function Web2() {
+function Web2(props) {
   return (
     <section>
       <div className='prototipagem'>
@@ -21,7 +21,7 @@ function Web2() {
               </span>
             </div>
           </div>
-          <button className='botaoEstilizado'>
+          <button className='botaoEstilizado' onClick={() => props.abreModal(2)}>
             Saiba Mais
         </button>
         </div>

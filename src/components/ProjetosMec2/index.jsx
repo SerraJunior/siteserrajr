@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/prototipo3D.png'
 import './style.css'
 
-function Blog() {
+function Mec2(props) {
   return (
     <div className='prototipagem'>
       <div style={{alignItems: 'center'}} className='grayContainer'>
@@ -19,7 +19,7 @@ function Blog() {
             </span>
           </div>
         </div>
-        <button className='botaoEstilizado'>
+        <button className='botaoEstilizado' onClick={() => props.abreModal(2)}>
           Saiba Mais
         </button>
       </div>
@@ -28,4 +28,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Mec2
