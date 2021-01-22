@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import ProjetosMec1 from '../components/ProjetosMec1'
 import ProjetosMec2 from '../components/ProjetosMec2'
 import ProjetosMec3 from '../components/ProjetosMec3'
 import Modal from '../components/Modal'
@@ -54,6 +55,7 @@ function ProjetosMec() {
             <Modal titulo={titulo} texto={texto} fechaModal={handleClose} abreModal={handleShow} showModal={mostraModal} />
             <Header/>
             <div style={{marginTop: '70px'}}></div>
+            <ProjetosMec1 fechaModal={handleClose} abreModal={handleShow}/>
             <ProjetosMec2 fechaModal={handleClose} abreModal={handleShow}/>
             <ProjetosMec3 fechaModal={handleClose} abreModal={handleShow}/>
             <Footer/>
