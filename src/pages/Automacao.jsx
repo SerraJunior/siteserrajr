@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Automacao1 from '../components/Automacao1'
+import Automacao2 from '../components/Automacao2'
 import Modal from '../components/Modal'
 
 function Automacao() {
@@ -51,6 +52,7 @@ function Automacao() {
             <Header/>
             <div style={{marginTop: '70px'}}></div>
             <Automacao1 fechaModal={handleClose} abreModal={handleShow}/>
+            <Automacao2 fechaModal={handleClose} abreModal={handleShow}/>
             <Footer/>
         </div>
     )
