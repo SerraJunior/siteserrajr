@@ -49,5 +49,45 @@
 .navContainer{
     margin-right: 5%;
     display: flex;
+}
+
+.headerIcon {
+    height: 0px;
+    width: 0px;
+}
+
+.IconBar {
+    opacity: 0;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+
+@media (max-width: 995px) {
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .IconBar {
+        opacity: 1;
+    }
+
 
 }
