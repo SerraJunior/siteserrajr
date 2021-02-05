@@ -1,0 +1,15 @@
+.map {
+    display: flex;
+    height: 500px;
+    margin-right: 1%;
+    flex: 1;
+    min-width: 450px;
+}
+
+@media (max-width: 500px) {
+    .map {
+      min-width: 300px;
+      height: 300px;
+    }
+  }
+  

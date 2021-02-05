@@ -14,9 +14,6 @@ function Formulario() {
   const user = { name: name, email: email, telefone: telefone, msg: mensagem}
 
   function enviaFormulario() {
-
-    
-
     axios.post("http://localhost:3003/contatos", user)
       .then(() => toast.success("Enviado com sucesso!"))
       .catch(() => toast.error("Ocorreu um erro inesperado!"))
@@ -25,14 +22,10 @@ function Formulario() {
     setEmail('')
     setTelefone('')
     setMensagem('')
-    
   }
 
   return (
-
-    <div className='container'>
-
-      <section className='coluna'>
+      <div className='formContainer'>
           <label className='labelFormulario'>
             Nome<br></br>
             <input value={name} onChange={(name1) => setName(name1.target.value)} name="name" className="contatoInput" required placeholder="Digite aqui seu nome" />
@@ -57,9 +50,7 @@ function Formulario() {
             Enviar            
           </button> 
           <ToastContainer />
-      </section>
-
-    </div>
+      </div>
 
   )
 }

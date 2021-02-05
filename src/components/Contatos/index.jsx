@@ -7,10 +7,10 @@ function Contatos() {
 
     return (
         <section id='secaoContato'>
-            <h1 className='tituloSecoes'> Contatos </h1>
-            <div className='linha'></div>
-            <div className='container'>
-                <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <div className='marginHorizontal'>
+                <h1 className='tituloSecoes'> Contatos </h1>
+                <div className='linha'></div>
+                <div className='contatosContainer'>
                     <Mapa />
                     <Formulario />
                 </div>

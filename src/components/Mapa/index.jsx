@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import { FaMapMarkerAlt } from 'react-icons/fa'
+import './style.css'
  
 const IconMarker = () => {
   return (
@@ -10,12 +11,10 @@ const IconMarker = () => {
   )
 }
  
-class SimpleMap extends Component {
+function SimpleMap() {
  
-  render() {
     return (
-      // Important! Always set the container height explicitly
-      <div style={{ height: '100vh', width: '100%', margin: '50px' }}>
+      <div className="map">
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyC0J3XYuvy399Puxnwxizilp0ZgzvfjIU4' }}
           defaultCenter={{
@@ -28,11 +27,9 @@ class SimpleMap extends Component {
             lat={-22.286175}
             lng={-42.5442775}
           />
-
         </GoogleMapReact>
       </div>
-    );
-  }
+    )
 }
  
 export default SimpleMap;
