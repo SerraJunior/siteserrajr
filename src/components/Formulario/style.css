@@ -43,12 +43,3 @@
     min-width: 350px;
 }
 
-@media (max-width: 500px) {
-    .map {
-        min-width: 300px;
-        height: 300px;
-    }
-    .formContainer {
-        min-width: 275px;
-    }
-  }
