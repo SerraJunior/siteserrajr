@@ -14,7 +14,7 @@ function Formulario() {
   const user = { name: name, email: email, telefone: telefone, msg: mensagem}
 
   function enviaFormulario() {
-    axios.post("https://dashboard.heroku.com/apps/siteserrabackend/contatos", user)
+    axios.post("https://siteserrabackend.herokuapp.com/contatos", user)
       .then(() => toast.success("Enviado com sucesso!"))
       .catch(() => toast.error("Ocorreu um erro inesperado!"))
 
