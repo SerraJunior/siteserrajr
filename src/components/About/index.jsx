@@ -6,7 +6,7 @@ import histImg from '../../assets/hist.jpg'
 import mejImg from '../../assets/mej.jpg'
 import iprjImg from '../../assets/iprj.jpg'
 
-import { Nav, Tab, TabContainer, Tabs } from 'react-bootstrap'
+import { Nav, Tab } from 'react-bootstrap'
 
 function ControlledTabs() {
 
