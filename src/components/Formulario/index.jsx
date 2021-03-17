@@ -28,12 +28,8 @@ function Formulario() {
         .required("Nome obrigatório"),
 
       telefone: Yup.string()
-        .required("Telefone obrigatório")
-        .matches(
-          /^([0]{1}|\+?[234]{3})([7-9]{1})([0|1]{1})([\d]{1})([\d]{7})$/g,
-          "Número de telefone inválido"
-        ),
-
+        .min(10)
+        .required("Telefone obrigatório"),
       email: Yup.string().email().required("Email obrigatório"),
 
       mensagem: Yup.string()
