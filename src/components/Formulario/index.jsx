@@ -10,7 +10,7 @@ function Formulario() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [telefone, setTelefone] = useState("")
-  const [mensagem, setMensagem] = useState("")
+  const [msg, setMensagem] = useState("")
 
   async function enviaFormulario() {
 
@@ -18,27 +18,31 @@ function Formulario() {
       name: name,
       email: email,
       telefone: telefone,
-      msg: mensagem
+      msg: msg
     }
 
     const FormSchema = Yup.object().shape({
-      name: Yup.string()
-        .min(2, "Nome muito pequeno!")
-        .max(50, "Nome muito grande!")
-        .required("Nome obrigatório"),
+      name: Yup
+        .string()
+        .min(2)
+        .max(50)
+        .required(),
 
-      telefone: Yup.string()
+      email: Yup.string().email().required(),
+
+      telefone: Yup
+        .string()
         .min(10)
-        .required("Telefone obrigatório"),
+        .required(),
 
-      email: Yup.string().email().required("Email obrigatório"),
-
-      msg: Yup.string()
-        .required("Mensagem obrigatório")
-        .min(6, "Mensagem muito curta"),
+      msg: Yup
+        .string()
+        .required()
+        .min(6),
     });
 
-    const isValid = await FormSchema.isValid(user);
+    const isValid = await FormSchema.isValid(user)
+
     if (isValid) {
 
       try {
@@ -77,7 +81,7 @@ function Formulario() {
       <br></br>
       <label className='labelFormulario'>
         Mensagem<br></br>
-        <input value={mensagem} onChange={(mensagem1) => setMensagem(mensagem1.target.value)} type="text" name="mensagem" className="contatoInputMensagem" required placeholder="Digite aqui sua mensagem" />
+        <input value={msg} onChange={(msg) => setMensagem(msg.target.value)} type="text" name="mensagem" className="contatoInputMensagem" required placeholder="Digite aqui sua mensagem" />
       </label>
       <br></br>
       <button onClick={enviaFormulario} className='enviar' >
