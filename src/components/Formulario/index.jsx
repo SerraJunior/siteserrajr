@@ -53,7 +53,7 @@ function Formulario() {
         setMensagem('')
         toast.success("Enviado com sucesso!")
       } catch (err) {
-        console.log(err)
+        toast.error("Tente novamente mais tarde")
       }
     } else {
       toast.error("Dados em formato errado")
