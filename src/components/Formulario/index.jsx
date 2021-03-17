@@ -30,9 +30,10 @@ function Formulario() {
       telefone: Yup.string()
         .min(10)
         .required("Telefone obrigatório"),
+
       email: Yup.string().email().required("Email obrigatório"),
 
-      mensagem: Yup.string()
+      msg: Yup.string()
         .required("Mensagem obrigatório")
         .min(6, "Mensagem muito curta"),
     });
