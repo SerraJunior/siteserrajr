@@ -1,9 +1,10 @@
-import React, { useState } from "react"
+import React, { useRef, useState } from "react"
 import "./style.css"
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import * as Yup from 'yup'
+import ReCAPTCHA from "react-google-recaptcha";
 
 function Formulario() {
 
@@ -11,8 +12,14 @@ function Formulario() {
   const [email, setEmail] = useState("")
   const [telefone, setTelefone] = useState("")
   const [msg, setMensagem] = useState("")
+  const [captchaValue, setCaptchaValue] = useState("")
+  const reRef = useRef()
 
   async function enviaFormulario() {
+
+    if (!captchaValue) {
+      return toast.error("Complete o captcha de verificação!")
+    }
 
     const user = {
       name: name,
@@ -58,12 +65,15 @@ function Formulario() {
     } else {
       toast.error("Dados em formato errado")
     }
+  }
 
-
+  function captchaCarregou() {
+    console.log("Captcha carregou")
   }
 
   return (
     <div className='formContainer'>
+      <ToastContainer />
       <label className='labelFormulario'>
         Nome<br></br>
         <input value={name} onChange={(name1) => setName(name1.target.value)} name="name" className="contatoInput" required placeholder="Digite aqui seu nome" />
@@ -83,13 +93,17 @@ function Formulario() {
         Mensagem<br></br>
         <input value={msg} onChange={(msg) => setMensagem(msg.target.value)} type="text" name="mensagem" className="contatoInputMensagem" required placeholder="Digite aqui sua mensagem" />
       </label>
-      <br></br>
-      <button onClick={enviaFormulario} className='enviar' >
+      <div style={{display: "flex", justifyContent: "center", marginBottom:"2%"}}>
+        <ReCAPTCHA
+          sitekey={"6LfilYYaAAAAANQsJHKElhstsacn2kVVUGiNnYW2"}
+          onChange={(value) => setCaptchaValue(value)}
+          ref={reRef}
+        />
+      </div>
+      <button onClick={enviaFormulario} className='enviar'>
         Enviar
-          </button>
-      <ToastContainer />
+      </button>
     </div>
-
   )
 }
 
