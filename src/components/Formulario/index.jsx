@@ -29,7 +29,7 @@ function Formulario() {
     }
 
     const FormSchema = Yup.object().shape({
-      name: Yup
+      nome: Yup
         .string()
         .min(2)
         .max(50)
