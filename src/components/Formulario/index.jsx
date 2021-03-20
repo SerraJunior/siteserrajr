@@ -22,7 +22,7 @@ function Formulario() {
     }
 
     const user = {
-      name: name,
+      nome: name,
       email: email,
       telefone: telefone,
       msg: msg
