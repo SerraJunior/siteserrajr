@@ -11,17 +11,19 @@ import Footer from '../components/Footer'
 
 
 
+
+
 function Home() {
     return (
         <div>
-            <Header/>
-            <Banner/>
-            <About/>
-            <Mission/>
-            <Services/>
-            <Portifolio/>
-            <Contatos/>
-            <Footer/>
+            <Header />
+            <Banner />
+            <About />
+            <Mission />
+            <Services />
+            <Portifolio />
+            <Contatos />
+            <Footer />
 
         </div>
     )
