@@ -46,7 +46,7 @@ function ControlledTabs() {
             <Tab.Pane eventKey="Nossa História">
               <div className='tab'>
                 <Fade left>
-                  <img src={histImg} className="histImg"></img>
+                  <img src={histImg} className="histImg" alt="ImagemHistoria"></img>
                 </Fade>
 
                 <div>
@@ -73,7 +73,7 @@ function ControlledTabs() {
             </Tab.Pane>
             <Tab.Pane eventKey="MEJ">
               <div className='tab'>
-                <img src={mejImg} className="mejImg"></img>
+                <img src={mejImg} className="mejImg" alt="ImagemMej"></img>
                 <div>
                   <h5 style={{ fontWeight: 'bold' }}> Movimento Empresa Júnior </h5>
                   <span>
@@ -83,15 +83,15 @@ function ControlledTabs() {
                     acadêmica fornecendo experiências práticas. Uma empresa júnior é uma associação
                     civil ,sem fins lucrativos, gerida exclusivamente por alunos de graduação de uma
                     universidade, que presta serviços e desenvolve projetos para empresas.
-                                </span>
+                  </span>
                   <br /><br />
-                  <a className='link_externo' target='_blank' href="http://brasiljunior.org.br/"> SAIBA MAIS </a>
+                  <a className='link_externo' rel="noreferrer" target='_blank' href="http://brasiljunior.org.br/"> SAIBA MAIS </a>
                 </div>
               </div>
             </Tab.Pane>
             <Tab.Pane eventKey="IPRJ">
               <div className='tab'>
-                <img src={iprjImg} className="iprjImg"></img>
+                <img src={iprjImg} className="iprjImg" alt="ImagemIPRJ"></img>
                 <div>
                   <h5 style={{ fontWeight: 'bold' }}> O Instituto Politécnico do Rio de Janeiro </h5>
                   <span>
@@ -102,7 +102,7 @@ function ControlledTabs() {
                     desde 1995, e Mestrado em Ciência e Tecnologia de Materiais desde 2007.
                 </span>
                   <br /><br />
-                  <a className='link_externo' target='_blank' href="http://www.iprj.uerj.br/"> SITE DO INSTITUTO </a>
+                  <a className='link_externo'  rel="noreferrer" target='_blank' href="http://www.iprj.uerj.br/"> SITE DO INSTITUTO </a>
                 </div>
               </div>
             </Tab.Pane>

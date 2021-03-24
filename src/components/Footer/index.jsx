@@ -29,19 +29,19 @@ function Footer() {
               <div className="footerLinha"></div>
               <ul className="rodape_listas">
                 <li className="rodape_elementos">
-                  <a id="link_secaoContato" href="#secaoContato" className="rodape_link">
+                  <a id="link_secaoContato" rel="noreferrer" href="#secaoContato" className="rodape_link">
                     Rua Bonfim, 25 - Vila Amélia
                   </a>
                 </li>
 
                 <li className="rodape_elementos">
-                  <a id="link_secaoContato" href="#secaoContato" className="rodape_link">
+                  <a id="link_secaoContato" rel="noreferrer" href="#secaoContato" className="rodape_link">
                     Bloco 1, 3º andar, sala 312.
                   </a>
                 </li>
 
                 <li className="rodape_elementos">
-                  <a id="link_secaoContato" href="#secaoContato" className="rodape_link">
+                  <a id="link_secaoContato" rel="noreferrer" href="#secaoContato" className="rodape_link">
                     Nova Friburgo,RJ CEP: 28.625-570
                   </a>
                 </li>
@@ -53,7 +53,7 @@ function Footer() {
                 </li>
 
                 <li className="rodape_elementos">
-                  <a href="#secaoContato" className="rodape_link">
+                  <a href="#secaoContato" rel="noreferrer" className="rodape_link">
                     atendimento.serrajunior@gmail.com
                   </a>
                 </li>
@@ -87,13 +87,13 @@ function Footer() {
           </span>
           <ul className='listaSocial'>
             <li className='socialMargin '>
-              <a target="_blank" href="https://www.facebook.com/serrajreng/?fref=ts" className="social_link facebook" id="social_link_facebook">Facebook <img src={logoFace} className="social_icone" /></a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/serrajreng/?fref=ts" className="social_link facebook" id="social_link_facebook">Facebook <img src={logoFace} alt="Logo Facebook" className="social_icone" /></a>
             </li>
             <li className='socialMargin '>
-              <a target="_blank" href="https://www.instagram.com/serrajreng/" className="social_link instagram" id="social_link_instagram">Instagram <img src={logoInsta} className="social_icone" /></a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/serrajreng/" className="social_link instagram" id="social_link_instagram">Instagram <img src={logoInsta} alt="Logo Instagram" className="social_icone" /></a>
             </li>
             <li className='socialMargin '>
-              <a target="_blank" href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg" className="social_link youtube" id="social_link_youtube"> Youtube <img src={logoyt} className="social_icone" /></a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCZ5rETtu2s9WRPz1GuQ5wcg" className="social_link youtube" id="social_link_youtube"> Youtube <img alt="Logo Youtube" src={logoyt} className="social_icone" /></a>
             </li>
           </ul>
         </div>

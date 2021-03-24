@@ -19,7 +19,7 @@ export default function Slider() {
           <Carousel.Item>
             <div className="primeiraAba">
               <div className="imagemPortifolio">
-                <img src={imgFazenda} className="portifolioImg" />
+                <img src={imgFazenda} alt="Imagem Fazenda" className="portifolioImg" />
               </div>
 
               <div className='textPortifolio'>
@@ -37,7 +37,7 @@ export default function Slider() {
           <Carousel.Item>
             <div className="primeiraAba">
               <div className="imagemPortifolio">
-                <img src={imgChassi} className="portifolioImg" />
+                <img src={imgChassi} alt="Imagem Chassi" className="portifolioImg" />
               </div>
               <div className='textPortifolio'>
                 <h2>RL Oficina de Motocicletas</h2>
@@ -53,7 +53,7 @@ export default function Slider() {
           <Carousel.Item>
             <div className="primeiraAba">
               <div className="imagemPortifolio">
-                <img src={imgTMF} className="portifolioImg" />
+                <img src={imgTMF} alt="Imagem TMF" className="portifolioImg" />
               </div>
               <div className='textPortifolio'>
                 <h2>TMF Indústria Mecânica</h2>

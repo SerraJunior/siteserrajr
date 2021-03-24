@@ -15,8 +15,8 @@ function Services() {
         </div>
         <div className='rowContainer'>
           <div className='coluna'>
-            <a id="projetosMecanicos" className="linksServicos" >
-              <img className='icon' src={engrenagemImg}></img>
+            <a href="/ProjetosMec" id="projetosMecanicos" className="linksServicos" >
+              <img className='icon' alt="Icone Engrenagem" src={engrenagemImg}></img>
               <h5 className='titleProjetos'>Projetos mecânicos</h5>
               <center>
                 <p>
@@ -28,21 +28,21 @@ function Services() {
           </div>
 
           <div className='coluna'>
-            <a id="projetosMecanicos" className="linksServicos" >
-              <img className='icon' src={lampadaImg}></img>
+            <a href="/Automacao" id="projetosMecanicos" className="linksServicos" >
+              <img className='icon' alt="Icone Lampada" src={lampadaImg}></img>
               <h5 className='titleProjetos'>Automação</h5>
               <center>
                 <p>
                   Sistemas de Controle de Variáveis<br></br>Automação e Controle de Processos
-              </p>
+                </p>
               </center>
             </a>
             <a href="/Automacao" className="botaoEstilizado">Saiba Mais</a>
           </div>
 
           <div className='coluna'>
-            <a id="projetosMecanicos" className="linksServicos" >
-              <img className='icon' src={devServicesImg}></img>
+            <a href="/Web" id="projetosMecanicos" className="linksServicos" >
+              <img className='icon' alt="Icone Site" src={devServicesImg}></img>
               <h5 className='titleProjetos'>Desenvolvimento Web</h5>
               <center>
                 <p>

@@ -12,11 +12,11 @@ function Mission() {
           <div className='coluna'>
             <span id="Missao" className="linkMissao" >
               <h5 className='titleProjetos'>Missão</h5>
-              <img className='icon' src={bandeiraImg}></img>
+              <img className='icon' alt="Icone Bandeira" src={bandeiraImg}></img>
               <center>
                 <p>
                   Desenvolver os membros a partir de projetos de engenharia mecânica e engenharia da computação, impactando o mercado para criar valor e fazer diferença.
-                 </p>
+                </p>
               </center>
             </span>
           </div>
@@ -24,12 +24,12 @@ function Mission() {
           <div className='coluna'>
             <div id="Visao" className="linkVisao" >
               <h5 className='titleProjetos'>Visão</h5>
-              <img className='icon' src={binoculosImg}></img>
+              <img className='icon' alt="Icone Binoculos" src={binoculosImg}></img>
 
               <center>
                 <p>
                   Ser uma empresa júnior de alto crescimento em 2020.
-                 </p>
+                </p>
               </center>
             </div>
           </div>
@@ -37,7 +37,7 @@ function Mission() {
           <div className='coluna'>
             <div id="valores" className="linkValores" >
               <h5 className='titleProjetos'>Valores</h5>
-              <img className='icon' src={coracaoImg}></img>
+              <img className='icon' alt="Icone Coração" src={coracaoImg}></img>
 
               <center>
                 <p>

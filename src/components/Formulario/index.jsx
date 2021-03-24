@@ -17,8 +17,26 @@ function Formulario() {
 
   async function enviaFormulario() {
 
+    const secret = "6LfilYYaAAAAAOsdwYzjdNoD2sqjKZFaMqvcrWnD"
+
     if (!captchaValue) {
       return toast.error("Complete o captcha de verificação!")
+    }
+
+    try {
+      const resp = await axios.post("https://siteserrabackend.herokuapp.com/captchaverify", {
+        secret: secret,
+        captchaValue: captchaValue
+      })
+
+      const isValid = resp.data
+
+      if(!isValid) {
+        return
+      }
+    } catch (error) {
+      console.log(error)
+      return
     }
 
     const user = {
@@ -67,10 +85,6 @@ function Formulario() {
     }
   }
 
-  function captchaCarregou() {
-    console.log("Captcha carregou")
-  }
-
   return (
     <div className='formContainer'>
       <ToastContainer />
@@ -93,7 +107,7 @@ function Formulario() {
         Mensagem<br></br>
         <input value={msg} onChange={(msg) => setMensagem(msg.target.value)} type="text" name="mensagem" className="contatoInputMensagem" required placeholder="Digite aqui sua mensagem" />
       </label>
-      <div style={{display: "flex", justifyContent: "center", marginBottom:"2%"}}>
+      <div style={{ display: "flex", justifyContent: "center", marginBottom: "2%" }}>
         <ReCAPTCHA
           sitekey={"6LfilYYaAAAAANQsJHKElhstsacn2kVVUGiNnYW2"}
           onChange={(value) => setCaptchaValue(value)}
